@@ -1,0 +1,9 @@
+n=int(input())
+k=int(input())
+t=int(input())
+p=int(input())
+s=int(input())
+d=(n*4*t+k*3.14*p)/1000
+t=d/s
+print(format(d,'0.4f'))
+print(format(t,'0.4f'))
